@@ -1,0 +1,5 @@
+
+rootProject.name="skytrax-lamb-certificate-manager"
+
+include("app")
+include("infra")
