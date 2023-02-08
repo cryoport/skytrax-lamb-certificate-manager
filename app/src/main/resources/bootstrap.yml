@@ -3,4 +3,6 @@ micronaut:
     name: skytraxLambCertificateManager
   config-client:
     enabled: true
-aws.client.system-manager.parameterstore.enabled: true
+aws.client.system-manager.parameterstore:
+  enabled: true
+  use-secure-parameters: true
